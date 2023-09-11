@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Task4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.mySidenav a {
+  position: absolute;
+  left: -90px;
+  transition: 0.5s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.mySidenav a:hover {
+  left: 0;
+}
+
+.dashboard {
+  top: 80px;
+  background-color: MediumSeaGreen;
+}
+
+.menu{
+  top: 140px;
+  background-color: DodgerBlue;
+}
+
+.community {
+  top: 200px;
+  background-color: red;
+}
+
+.contact {
+  top: 260px;
+  background-color: #505050;
+}
+
+</style>
+</head>
+<body>
+  <div class="mySidenav" >
+    <a href="#" class="dashboard">Dashboard</a>
+    <a href="#" class="menu">Menu</a>
+    <a href="#" class="community">Community</a>
+    <a href="#" class="contact">Contact</a>
+  </div>
+  
+  <div style="margin-left:100px; margin-top: 40px;">
+    <h2>Hoverable Sidenav Buttons</h2>
+    <p>Hover over the buttons in the left side navigation to open them.</p>
+  </div>
+</body>
+</html>
